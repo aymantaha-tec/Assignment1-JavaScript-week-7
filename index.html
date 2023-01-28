@@ -1,0 +1,542 @@
+<!-- by Ayman Taha
+    1/28/2023 -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=".............">
+    <meta name="keywords" content="..........">
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">    
+    <!-- main Template CSS File -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Font Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- main Template CSS File -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Assignment 1-week8-js</title>
+</head>
+<body>
+    <section class="my-5">
+        <div class="container text-center text-primary">
+            <h1>Assignment1-JavaScript-week-7</h1>
+            <h5>Ayman Taha</h5>
+        </div>
+    </section>
+    <section>
+        <div class="container my-4">
+            <div class="accordion" id="accordionExample">
+                <!-- Start Assignment-1 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            1- Write a program that allow to user enter number then printit
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div>
+                                <label for="num">Enter number:</label>
+                                <input type="text" name="num" id="num-1"/>
+                                <div class="btn btn-primary" id="btn-1">Print the number</div>
+                                <div id="aler1"></div>
+                                <p> The number: <span id="p-num" class="fw-bold"></span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Assignment-1 -->
+
+                <!-- Start Assignment-2 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            2-Write a program that take number from user then print yes if that number can divide by 3 
+                            and 4 otherwise print no
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div>
+                                <label for="num-2">Enter number:</label>
+                                <input type="text" name="num-2" id="num-2"/>
+                                <div class="btn btn-primary" id="btn-2">Print the number</div>
+                                <div id="aler2"></div>
+                                <p> The number: <span id="p-num-2" class="fw-bold"></span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Assignment-2 -->
+
+                <!-- Start Assignment-3 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            3- Write a program that allows the user to insert 2 integers then print the max
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div>
+                                <label for="num-3">Enter the first number:</label>
+                                <input type="text" name="num-2" id="num-3"/>
+                                <label for="num-3b">Enter the second number:</label>
+                                <input type="text" name="num-2b" id="num-3b"/>
+                                <div class="btn btn-primary" id="btn-3">Print the number</div>
+                                <div id="aler3"></div>
+                                <p> The max number: <span id="p-num-3" class="fw-bold"></span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Assignment-3 -->
+
+                <!-- Start Assignment-4 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree4">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree4" aria-expanded="false" aria-controls="collapseThree4">
+                            4- Write a program that allows the user to insert an integer then print negative if it is
+                            negative number otherwise print positive.
+                        </button>
+                    </h2>
+                    <div id="collapseThree4" class="accordion-collapse collapse" aria-labelledby="headingThree4" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div>
+                                <label for="num-4">Enter number:</label>
+                                <input type="text" name="num-4" id="num-4"/>
+                                <div class="btn btn-primary" id="btn-4">Print the number</div>
+                                <div id="aler4"></div>
+                                <p> Output: <span id="p-num-4" class="fw-bold"></span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Assignment-4 -->
+
+                <!-- Start Assignment-5 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree5">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree5" aria-expanded="false" aria-controls="collapseThree5">
+                            5- Write a program that take 3 integers from user then print the max element 
+                            and the min element.
+                        </button>
+                    </h2>
+                    <div id="collapseThree5" class="accordion-collapse collapse" aria-labelledby="headingThree5" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div>
+                                <label for="num-5">Enter the first number:</label>
+                                <input type="text" name="num-5" id="num-5"/>
+
+                                <label for="num-5b">Enter the first number:</label>
+                                <input type="text" name="num-5b" id="num-5b"/>
+
+                                <label for="num-5c">Enter the third number:</label>
+                                <input type="text" name="num-5c" id="num-5c"/>
+
+                                <div class="btn btn-primary" id="btn-5">Print the number</div>
+                                <div id="aler5"></div>
+                                <p> Max element: <span id="p-num-5" class="fw-bold"></span></p>
+                                <p> Min element: <span id="p-num-5b" class="fw-bold"></span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Assignment-5 -->
+
+                <!-- Start Assignment-6 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree6">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree6" aria-expanded="false" aria-controls="collapseThree6">
+                            6- Write a program that allows the user to insert integer number then 
+                            check If a number is oven or odd
+                        </button>
+                    </h2>
+                    <div id="collapseThree6" class="accordion-collapse collapse" aria-labelledby="headingThree6" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div>
+                                <label for="num-6">Enter number:</label>
+                                <input type="text" name="num-6" id="num-6"/>
+                                <div class="btn btn-primary" id="btn-6">Print the number</div>
+                                <div id="aler6"></div>
+                                <p> Output: <span id="p-num-6" class="fw-bold"></span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Assignment-6 -->
+
+                <!-- Start Assignment-8 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree8">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree8" aria-expanded="false" aria-controls="collapseThree8">
+                            8- Write a program that take character from user then if it is vowel chars (a,e,I,o,u) 
+                            then print vowel otherwise print consonant
+                        </button>
+                    </h2>
+                    <div id="collapseThree8" class="accordion-collapse collapse" aria-labelledby="headingThree8" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div>
+                                <label for="num-8">Enter a letter:</label>
+                                <input type="text" name="num-8" id="num-8" maxlength="1"/>
+                                <div class="btn btn-primary" id="btn-8">ok</div>
+                                <div id="aler8"></div>
+                                <p> Output: <span id="p-num-8" class="fw-bold"></span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Assignment-8 -->
+
+                <!-- Start Assignment-9 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree9">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree9" aria-expanded="false" aria-controls="collapseThree9">
+                            9- Write a program that allows user to insert integer then print all numbers between 1 to 
+                            that’s number
+                        </button>
+                    </h2>
+                    <div id="collapseThree9" class="accordion-collapse collapse" aria-labelledby="headingThree9" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div>
+                                <label for="num-9">Enter number:</label>
+                                <input type="text" name="num-9" id="num-9"/>
+                                <div class="btn btn-primary" id="btn-9">Print the number</div>
+                                <div id="aler9"></div>
+                                <p> Output: <span id="p-num-9" class="fw-bold"></span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Assignment-9 -->
+
+                <!-- Start Assignment-10 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree10">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree10" aria-expanded="false" aria-controls="collapseThree10">
+                            10- Write a program that allows userto insert integerthen print a multiplication table up to 12.
+                        </button>
+                    </h2>
+                    <div id="collapseThree10" class="accordion-collapse collapse" aria-labelledby="headingThree10" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div>
+                                <label for="num-10">Enter number:</label>
+                                <input type="text" name="num-10" id="num-10"/>
+                                <div class="btn btn-primary" id="btn-10">Print </div>
+                                <div id="aler10"></div>
+                                <p> Output: <span id="p-num-10" class="fw-bold"></span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Assignment-10 -->
+
+                <!-- Start Assignment-11 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree11">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree11" aria-expanded="false" aria-controls="collapseThree11">
+                            11- Write a program that allows to user to insert number then print all even numbers 
+                            between 1 to this number
+                        </button>
+                    </h2>
+                    <div id="collapseThree11" class="accordion-collapse collapse" aria-labelledby="headingThree11" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div>
+                                <label for="num-11">Enter number:</label>
+                                <input type="text" name="num-11" id="num-11"/>
+                                <div class="btn btn-primary" id="btn-11">Print </div>
+                                <div id="aler11"></div>
+                                <p> Output: <span id="p-num-11" class="fw-bold"></span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Assignment-11 -->
+
+                <!-- Start Assignment-12 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree12">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree12" aria-expanded="false" aria-controls="collapseThree12">
+                            12- Write a program that take two integers then print the power
+                        </button>
+                    </h2>
+                    <div id="collapseThree12" class="accordion-collapse collapse" aria-labelledby="headingThree12" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div>
+                                <label for="num-12">Enter the first number:</label>
+                                <input type="text" name="num-12" id="num-12"/>
+                                <label for="num-12b">Enter the second number:</label>
+                                <input type="text" name="num-12b" id="num-12b"/>
+                                <div class="btn btn-primary" id="btn-12">Print the number</div>
+                                <div id="aler12"></div>
+                                <p> the power: <span id="p-num-12" class="fw-bold"></span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Assignment-12 -->
+
+                <!-- Start Assignment-13 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree13">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree13" aria-expanded="false" aria-controls="collapseThree13">
+                            13- Write a program to enter marks of five subjects and calculate total, average and 
+                            percentage.
+                        </button>
+                    </h2>
+                    <div id="collapseThree13" class="accordion-collapse collapse" aria-labelledby="headingThree13" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div>
+                                <label for="num-13">Enter the Science grades:</label>
+                                <input type="text" name="num-13" id="num-13"/>
+
+                                <label for="num-13">Enter the math grades:</label>
+                                <input type="text" name="num-13b" id="num-13b"/>
+
+                                <label for="num-13c">Enter the english grades:</label>
+                                <input type="text" name="num-13c" id="num-13c"/>
+
+                                <label for="num-13d">Enter the arabic grades:</label>
+                                <input type="text" name="num-13d" id="num-13d"/>
+
+                                <label for="num-13e">Enter grammar grades:</label>
+                                <input type="text" name="num-13e" id="num-13e"/>
+
+                                <div class="btn btn-primary" id="btn-13">Print the number</div>
+                                <div id="aler13"></div>
+                                <p> Total marks: <span id="p-num-13" class="fw-bold"></span></p>
+                                <p> Average Marks: <span id="p-num-13b" class="fw-bold"></span></p>
+                                <p> Percentage: <span id="p-num-13c" class="fw-bold"></span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Assignment-13 -->
+
+                <!-- Start Assignment-14 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree-14">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree-14" aria-expanded="false" aria-controls="collapseThree-14">
+                            14-Write a program to input month number and print number of days in that 
+                            month.
+                        </button>
+                    </h2>
+                    <div id="collapseThree-14" class="accordion-collapse collapse" aria-labelledby="headingThree-14" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div>
+                                <label for="num-14">Month Number:</label>
+                                <input type="text" name="num-14" id="num-14"/>
+                                <div class="btn btn-primary" id="btn-14">Days in Month</div>
+                                <div id="aler-14"></div>
+                                <p> Days in Month: <span id="p-num-14" class="fw-bold"></span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Assignment--14 -->
+
+                <!-- Start Assignment-15 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree1">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree15" aria-expanded="false" aria-controls="collapseThree15">
+                            15- Write a program to input marks of five subjects
+                                Physics, Chemistry, Biology, Mathematics and Computer
+                                , Find percentage and grade
+                        </button>
+                    </h2>
+                    <div id="collapseThree15" class="accordion-collapse collapse" aria-labelledby="headingThree15" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div>
+                                <label for="num-15">Enter the Physics grades:</label>
+                                <input type="text" name="num-15" id="num-15"/>
+
+                                <label for="num-15b">Enter the Chemistry grades:</label>
+                                <input type="text" name="num-15b" id="num-15b"/>
+
+                                <label for="num-15c">Enter the Biology grades:</label>
+                                <input type="text" name="num-15c" id="num-15c"/>
+
+                                <label for="num-15d">Enter the Mathematics grades:</label>
+                                <input type="text" name="num-15d" id="num-15d"/>
+
+                                <label for="num-15e">Enter Computer grades:</label>
+                                <input type="text" name="num-15e" id="num-15e"/>
+
+                                <div class="btn btn-primary" id="btn-15">Print the number</div>
+                                <div id="aler-15"></div>
+                                <p> input : <span id="p-num-15" class="fw-bold"></span></p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Assignment-15 -->
+
+                <div class="switch text-center text-primary fw-bold fs-4 my-4"> Using switch case</div>
+                
+                <!-- Start Assignment-16 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree-16">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree-16" aria-expanded="false" aria-controls="collapseThree-16">
+                            16- Write a program to print total number of days in month.
+                        </button>
+                    </h2>
+                    <div id="collapseThree-16" class="accordion-collapse collapse" aria-labelledby="headingThree-16" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div>
+                                <label for="num-16">Month Number:</label>
+                                <input type="text" name="num-16" id="num-16"/>
+                                <div class="btn btn-primary" id="btn-16">Days in Month</div>
+                                <div id="aler-16"></div>
+                                <p> Days in Month: <span id="p-num-16" class="fw-bold"></span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Assignment--16 -->
+
+                <!-- Start Assignment-17 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree17">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree17" aria-expanded="false" aria-controls="collapseThree17">
+                            17- Write a program to check whether an alphabet is vowel or consonant- Write a program to check whether an alphabet is vowel or consonant
+                        </button>
+                    </h2>
+                    <div id="collapseThree17" class="accordion-collapse collapse" aria-labelledby="headingThree17" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div>
+                                <label for="num-17">Enter a letter:</label>
+                                <input type="text" name="num-17" id="num-17" maxlength="1"/>
+                                <div class="btn btn-primary" id="btn-17">ok</div>
+                                <div id="aler17"></div>
+                                <p> Output: <span id="p-num-17" class="fw-bold"></span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Assignment-17 -->
+
+                <!-- Start Assignment-18 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree18">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree18" aria-expanded="false" aria-controls="collapseThree18">
+                            3- Write a program that allows the user to insert 2 integers then print the max
+                        </button>
+                    </h2>
+                    <div id="collapseThree18" class="accordion-collapse collapse" aria-labelledby="headingThree18" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div>
+                                <label for="num-18">Enter the first number:</label>
+                                <input type="text" name="num-18" id="num-18"/>
+                                <label for="num-18b">Enter the second number:</label>
+                                <input type="text" name="num-18b" id="num-18b"/>
+                                <div class="btn btn-primary" id="btn-18">Print the number</div>
+                                <div id="aler18"></div>
+                                <p> The max number: <span id="p-num-18" class="fw-bold"></span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Assignment-18 -->
+
+                <!-- Start Assignment-19 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree19">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree19" aria-expanded="false" aria-controls="collapseThree19">
+                            19- Write a program to check whether a number is even or odd 
+                        </button>
+                    </h2>
+                    <div id="collapseThree19" class="accordion-collapse collapse" aria-labelledby="headingThree19" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div>
+                                <label for="num-19">Enter number:</label>
+                                <input type="text" name="num-19" id="num-19"/>
+                                <div class="btn btn-primary" id="btn-19">Print the number</div>
+                                <div id="aler19"></div>
+                                <p> Output: <span id="p-num-19" class="fw-bold"></span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Assignment-19 -->
+
+                <!-- Start Assignment-20 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree20">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree20" aria-expanded="false" aria-controls="collapseThree20">
+                            20- Write a program to check whether a number is positive or negative or zero
+                        </button>
+                    </h2>
+                    <div id="collapseThree20" class="accordion-collapse collapse" aria-labelledby="headingThree20" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div>
+                                <label for="num-20">Enter number:</label>
+                                <input type="text" name="num-20" id="num-20"/>
+                                <div class="btn btn-primary" id="btn-20">Print the number</div>
+                                <div id="aler20"></div>
+                                <p> Output: <span id="p-num-20" class="fw-bold"></span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Assignment-20 -->
+
+
+                <!-- Start Assignment-21 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne21">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne21" aria-expanded="true" aria-controls="collapseOne21">
+                            1- Write a program that allow to user enter number then printit
+                        </button>
+                    </h2>
+                    <div id="collapseOne21" class="accordion-collapse collapse show" aria-labelledby="headingOne21" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="container g-5">
+                                <div class=" bg-body-secondary px-0 py-3">
+                                    <div class="row container">
+                                        <div class=" col-md-6">
+                                            <label for="num-21">Enter number one:</label>
+                                            <input type="text" name="num" id="num-21"/>
+                                            <label for="num-21b">Enter two:</label>
+                                            <input type="text" name="num21b" id="num-21b"/>
+                                        </div>
+                                    </div>
+                                    <div class="row m-auto container">
+                                        <div class="col-md-12">
+                                            <div class="btn btn-dark" id="btn-take-way">-</div>
+                                            <div class="btn btn-dark" id="btn-dived">/</div>
+                                            <div class="btn btn-dark" id="btn-plus">+</div>
+                                            <div class="btn btn-dark" id="btn-mul">*</div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div id="aler21"></div>
+                                    <p class="container"> calculat: <span id="p-num-21" class="fw-bold"></span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Assignment-21 -->
+            </div>
+        </div>
+    </section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/js.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
